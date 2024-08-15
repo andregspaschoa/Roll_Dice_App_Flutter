@@ -66,6 +66,12 @@ flutter:
    - assets/images/dice-4.png
    - assets/images/dice-5.png
    - assets/images/dice-6.png
+   - assets/images/fundo-preto-parede.jpeg
+   - assets/images/fundo-preto-3d.jpeg
+   - assets/images/fundo-preto-envelhecido.jpeg
+   - assets/images/fundo-preto-gotas.jpeg
+   - assets/images/fundo-preto-tijolos.jpeg
+   - assets/images/splash_image.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
