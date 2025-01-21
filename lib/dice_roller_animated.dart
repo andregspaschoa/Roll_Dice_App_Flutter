@@ -59,16 +59,25 @@ class _DiceRollerState extends State<DiceRoller> with SingleTickerProviderStateM
           },
         ),
         const SizedBox(height: 20),
-        TextButton(
+        ElevatedButton.icon(
           onPressed: rollDice,
-          style: TextButton.styleFrom(
-            foregroundColor: Colors.white,
+          icon: const Icon(Icons.casino_rounded),
+          label: const Text('Roll Dice'),
+          style: ElevatedButton.styleFrom(          
+            backgroundColor: const Color.fromARGB(136, 255, 255, 255), 
+            foregroundColor: Colors.black, 
+            shadowColor: Colors.black45, 
+            elevation: 19, 
             textStyle: const TextStyle(
-              fontSize: 28,
+              fontSize: 18, 
+              fontWeight: FontWeight.bold, 
+            ),
+            padding: const EdgeInsets.symmetric(
+              horizontal: 14,
+              vertical: 10, 
             ),
           ),
-          child: const Text('Roll Dice'),
-        ),
+        )
       ],
     );
   }

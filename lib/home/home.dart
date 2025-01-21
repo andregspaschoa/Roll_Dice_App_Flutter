@@ -6,9 +6,9 @@ class Home extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
-      body: SafeArea(
-        child: BackgroundImageContainer(),  // Mantém o BackgroundImageContainer dentro da SafeArea
+    return const SafeArea(
+      child: Scaffold(
+        body: BackgroundImageContainer(),
       ),
     );
   }
